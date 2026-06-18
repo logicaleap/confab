@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+    <!-- Pre-paint theme init: read saved/system preference before first paint (no flash).
+         Confab is light-first: saved choice → OS prefers-color-scheme → light. -->
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('ll-theme');
+          var sysDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+          var theme = saved || (sysDark ? 'dark' : 'light');
+          document.documentElement.setAttribute('data-theme', theme);
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Primary SEO -->
+    <title>Why a room beats one voice — Confab</title>
+    <meta
+      name="description"
+      content="Confab is a macOS menubar app for spoken conversations with a room of AI advisors. They talk to you and to each other, out loud, so one viewpoint is never enough. Runs on your own Claude subscription."
+    />
+    <meta name="keywords" content="Confab, AI advisors, macOS menubar app, voice AI, multi-agent conversation, Claude, spoken AI, AI personalities, LogicaLeap" />
+    <meta name="author" content="Asaf Shamir" />
+    <meta name="creator" content="Asaf Shamir" />
+    <meta name="publisher" content="LogicaLeap" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="canonical" href="https://confab.logicaleap.com/why" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Confab" />
+    <meta property="og:title" content="Why a room beats one voice — Confab" />
+    <meta property="og:description" content="One AI gives you one confident answer and one blind spot you cannot see. Confab puts a room of advisors with different points of view in front of you, so the disagreement, and the mistake, surface out loud. You never have to learn how to ask." />
+    <meta property="og:url" content="https://confab.logicaleap.com/why" />
+    <meta property="og:image" content="https://confab.logicaleap.com/og.png" />
+    <meta property="og:image:alt" content="Confab" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Why a room beats one voice — Confab" />
+    <meta name="twitter:description" content="One AI gives you one confident answer and one blind spot you cannot see. Confab puts a room of advisors with different points of view in front of you, so the disagreement, and the mistake, surface out loud. You never have to learn how to ask." />
+    <meta name="twitter:image" content="https://confab.logicaleap.com/og.png" />
+
+    <!-- Icons / PWA -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/icon-32.png" />
+    <link rel="apple-touch-icon" href="/icons/icon-180.png" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&family=Space+Grotesk:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Structured data: a SoftwareApplication, part of the LogicaLeap family. -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Confab",
+        "applicationCategory": "ProductivityApplication",
+        "operatingSystem": "macOS",
+        "url": "https://confab.logicaleap.com/",
+        "description": "Confab is a macOS menubar app for spoken conversations with a room of AI advisors who talk to you and to each other. It runs on your own Claude Pro or Max subscription through the claude CLI.",
+        "publisher": {
+          "@type": "Organization",
+          "name": "LogicaLeap",
+          "url": "https://logicaleap.com/"
+        },
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD",
+          "description": "Free trial, then a one-time purchase. No subscription."
+        }
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-BYBksPeo.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-BmwrwL29.css">
+  <link rel="manifest" href="/manifest.webmanifest">    <meta name="description" content="One AI gives you one confident answer and one blind spot you cannot see. Confab puts a room of advisors with different points of view in front of you, so the disagreement, and the mistake, surface out loud. You never have to learn how to ask." />
+  </head>
+  <body>
+    <!--
+      Crawler / pre-hydration fallback. Vue mounts in client-side mode and OVERWRITES
+      #app's contents, so this markup is what crawlers and no-JS visitors see, then it
+      disappears once the app loads. Real <a href> links let the page be discovered
+      without running JS. KEEP IN SYNC with src/seo/pages.js.
+    -->
+    <div id="app">
+      <main>
+        <h1>Why a room beats one voice</h1>
+        <p>Ask one AI a question and you get one confident answer with one frame you cannot see. Confab puts a room of advisors with different points of view in front of you: you ask once, in plain words, and the room brings the angles, talks it through, and catches the blind spot a single answer hides.</p>
+        <nav aria-label="Site">
+          <a href="/">Home</a>
+          <a href="/why" aria-current="page">Why a room</a>
+          <a href="/purchase">License</a>
+        </nav>
+        <h2>Why one answer is risky</h2>
+        <ul>
+          <li>A single model, asked plainly, gives the safe, middle-of-the-road reply that agrees with the shape of your question.</li>
+          <li>Getting genuinely useful answers takes a point of view: what matters, what to rule out, which angle to think it through. Almost no one is taught that steering.</li>
+          <li>In Confab the point of view is already in the room. Each advisor carries one, so you ask once and the room brings the angles for you.</li>
+          <li>Because the advisors talk to each other, the disagreement happens out loud and the mistake gets caught in the room, not after you have acted on it.</li>
+        </ul>
+        <h2>Get Confab</h2>
+        <p><a href="/">Back to the overview</a></p>
+        <p><a href="/purchase">Buy a license and request early access</a></p>
+      </main>
+    </div>
+    <noscript>
+      <p>Enable JavaScript for the full interactive site.</p>
+    </noscript>
+  </body>
+</html>

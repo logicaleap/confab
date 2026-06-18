@@ -1,0 +1,11 @@
+# Cloudflare static-assets deploy for the Confab marketing site.
+# This repo holds the COMPILED site (dist/) — there is NO build step here;
+# Cloudflare serves dist/ as-is:
+#   npx wrangler deploy
+name = "confab"
+compatibility_date = "2025-01-01"
+
+[assets]
+directory = "./dist"
+# Serve index.html (200) for unknown paths so client-side routing works.
+not_found_handling = "single-page-application"

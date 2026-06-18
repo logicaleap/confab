@@ -1,0 +1,62 @@
+# Confab
+
+> Confab is a macOS menubar app for spoken conversations with a room of AI advisors.
+> They talk to you and to each other, out loud, so one viewpoint is never enough.
+> Part of the LogicaLeap product family.
+
+## About
+Confab lives in your Mac's menu bar. Open it and a few AI advisors join a live voice
+room. You talk; they answer in their own voices, hand the thread to whoever is better
+placed, push back, and build on each other. The belief it is built on: one confident
+answer is easy to act on and easy to get wrong, so a room that disagrees on purpose gets
+you to a better answer. It is not a companion bot and not a single smarter assistant.
+
+## The cast
+Confab ships with more than a hundred advisors across nineteen teams, including Software,
+Marketing, Leadership, Accounting, Legal, Personal Finance, Home & Garden, Consumer Focus
+Group, and Manufacturing & Operations. By default a small set is in the room and the rest wait backstage. Sage is the
+moderator and can pull in any team by voice ("bring in the marketing team", "swap legal for
+finance", "just Sage for now"). Each advisor has its own name, role, and voice.
+
+## How it works
+- Talk and listen by voice. Speech is understood on-device. Replies are spoken in built-in
+  neural voices, a distinct one per advisor.
+- Cut in any time. Start speaking and the room stops to listen. Interrupting never throws
+  away work in progress.
+- Background tasks. An advisor can take a longer job and run it on the side while the
+  conversation keeps going.
+- Two listening modes: always-on, and press-to-talk.
+- Headphones recommended for the most natural back-and-forth.
+
+## Requirements
+- A recent version of macOS (it relies on newer Apple speech features).
+- An active Claude Pro or Max subscription. Confab runs through the official `claude`
+  command-line tool you log into yourself. There is no separate API key and no extra
+  per-token cost. Requests go straight from your Mac to Anthropic.
+- Your conversation history stays local on your machine. No cloud sync.
+
+## Pricing
+Confab has a free trial that starts the moment you download it. Requesting a key on the
+site adds another week of trial. A one-time purchase, with no subscription to Confab
+itself, is coming. Purchasing is not live yet. See the License page (/purchase).
+
+## Download
+- macOS DMG from GitHub Releases: https://github.com/logicaleap/confab/releases/latest
+
+## Pages
+- Home (https://confab.logicaleap.com/): Overview of Confab, the cast, what happens in the
+  room, requirements, and the download.
+- Why a room (https://confab.logicaleap.com/why): Why several AI advisors with different
+  points of view beat one confident answer. A single model gives the safe, middle answer that
+  agrees with your question; Confab puts crafted points of view in the room so the angles and
+  the disagreement surface out loud, and you never have to learn how to ask.
+- License (https://confab.logicaleap.com/purchase): How licensing works. Free trial on
+  download, an extra week of trial when you request a key, and a one-time purchase (no
+  subscription) that is coming. Purchasing is not live yet.
+
+## Family
+- LogicaLeap (https://logicaleap.com): The software studio behind Confab.
+
+## Contact
+- Web: https://confab.logicaleap.com
+- Family: https://logicaleap.com
