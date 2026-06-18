@@ -5,6 +5,10 @@
 name = "confab"
 compatibility_date = "2025-01-01"
 
+# Production custom domain (auto-provisioned on deploy if logicaleap.com is a
+# Cloudflare zone in this account).
+routes = [{ pattern = "confab.logicaleap.com", custom_domain = true }]
+
 [assets]
 directory = "./dist"
 # Serve index.html (200) for unknown paths so client-side routing works.
