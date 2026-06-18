@@ -53,6 +53,13 @@ itself, is coming. Purchasing is not live yet. See the License page (/purchase).
 - License (https://confab.logicaleap.com/purchase): How licensing works. Free trial on
   download, an extra week of trial when you request a key, and a one-time purchase (no
   subscription) that is coming. Purchasing is not live yet.
+- Privacy (https://confab.logicaleap.com/privacy): The website collects only your name and
+  email when you request early access or use the contact form, with no tracking or analytics.
+  Submissions are stored and emailed via Cloudflare and Resend so we can reply. Email
+  asaf@logicaleap.com to have your data deleted.
+- Accessibility (https://confab.logicaleap.com/accessibility): The site aims for WCAG 2.2 AA.
+  The home-page demo is decorative with a text alternative and a reduced-motion fallback.
+  Known limitations and how to report an accessibility issue by email.
 
 ## Family
 - LogicaLeap (https://logicaleap.com): The software studio behind Confab.
