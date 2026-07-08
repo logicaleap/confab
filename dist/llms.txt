@@ -1,6 +1,6 @@
 # Confab
 
-> Confab is a macOS menubar app for spoken conversations with a room of AI advisors.
+> Confab is a macOS notch app for spoken conversations with a room of AI advisors.
 > They talk to you and to each other, out loud, so one viewpoint is never enough.
 > Part of the LogicaLeap product family.
 
