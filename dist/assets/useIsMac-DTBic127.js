@@ -1,0 +1,1 @@
+function e(){if(typeof navigator>"u")return!0;const n=navigator.userAgent||"",t=`${navigator.platform||""} ${n}`;return/iPhone|iPad|iPod/i.test(t)?!1:/Mac/i.test(t)}function r(){return{isMac:e()}}export{r as u};
